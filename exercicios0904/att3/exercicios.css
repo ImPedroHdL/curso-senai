@@ -1,0 +1,161 @@
+#diaMes {
+    margin: auto;
+    background-color: dodgerblue;
+    width: 400px;
+    font-size: large;
+    text-align: center;
+
+}
+
+#banco {
+    margin: auto;
+    background-color: dodgerblue;
+    width: 400px;
+    font-size: large;
+    text-align: center;
+}
+
+#ecommerce {
+    margin: auto;
+    background-color: dodgerblue;
+    width: 400px;
+    font-size: large;
+    text-align: center;
+}
+
+#peteca {
+    margin: auto;
+    background-color: dodgerblue;
+    width: 400px;
+    font-size: large;
+    text-align: center;
+}
+
+#netflix {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+#recomend1comedy {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 157px;
+    transition: 0.5s;
+    ;
+}
+
+#recomend1comedy:hover {
+    background-color: lightblue;
+}
+
+#recomend2comedy {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 135px;
+    transition: 0.5s;
+}
+
+#recomend2comedy:hover {
+    background-color: lightblue;
+}
+
+#recomend3comedy {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 225px;
+    transition: 0.5s;
+}
+
+#recomend3comedy:hover {
+    background-color: lightblue;
+}
+
+#recomend1horror {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 180px;
+    transition: 0.5s;
+}
+
+#recomend1horror:hover {
+    background-color: lightblue;
+}
+
+#recomend2horror {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 230px;
+    transition: 0.5s;
+}
+
+#recomend2horror:hover {
+    background-color: lightblue;
+}
+
+#recomend3horror {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 160px;
+    transition: 0.5s;
+}
+
+#recomend3horror:hover {
+    background-color: lightblue;
+}
+
+#recomend1action {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 235px;
+    transition: 0.5s;
+}
+
+#recomend1action:hover {
+    background-color: lightblue;
+}
+
+#recomend2action {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 115px;
+    transition: 0.5s;
+}
+
+#recomend2action:hover {
+    background-color: lightblue;
+}
+
+#recomend3action {
+
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    transition: 0.5s;
+}
+
+#recomend3action:hover {
+    background-color: lightblue;
+}
+
+body {
+    background-color: azure;
+}
