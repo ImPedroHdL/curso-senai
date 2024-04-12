@@ -1,0 +1,47 @@
+.tittle {
+    text-align: center;
+    text-decoration: wavy;
+    margin: auto;
+
+}
+
+.tittle2 {
+    text-align: center;
+    text-decoration: wavy;
+    margin: auto;
+
+}
+
+.tittle3 {
+    text-align: center;
+    text-decoration: wavy;
+    margin: auto;
+
+}
+
+img {
+    width: 500px;
+}
+
+.turboAstra {
+    width: 150px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.fueltech {
+    width: 150px;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+#itens-turbo {
+    align-items: center;
+    margin: auto;
+}
+
+#astra {
+    text-align: center;
+    text-decoration: wavy;
+    margin: auto;
+}

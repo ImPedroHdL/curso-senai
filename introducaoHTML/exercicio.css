@@ -1,0 +1,67 @@
+.titulo {
+    margin: auto;
+    text-align: center;
+    color: blue;
+    border: 3px solid black;
+    border-width: 3px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: lightgray;
+    transition: 1s;
+
+}
+
+.titulo:hover {
+    background-color: lightblue;
+
+}
+
+.headerDaPagina {
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    width: 370px;
+}
+
+.joinha {
+    width: 150px;
+}
+
+.listas {
+    margin: 20px auto;
+    text-align: center;
+    width: 300px;
+    background-color: lightgray;
+
+}
+
+.cliqueAqui {
+    margin: auto;
+    text-align: center;
+}
+
+.botaoclickaqui{
+    border: 1px solid rgb(13, 114, 148);
+    border-radius: 2px;
+}
+
+ul,
+ol {
+    padding: 0px;
+
+}
+
+#txtRonco{
+    margin: 10px auto;
+    text-align: center ;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 250px;
+}
+
+
+#foot{
+    margin: auto;
+    text-align: right;
+    border: 5px currentColor;
+}
