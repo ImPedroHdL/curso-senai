@@ -110,4 +110,3 @@ function att3() {
 
     console.log(amigos.concat(maisAmigos))
 }
-
