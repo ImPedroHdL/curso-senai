@@ -1,0 +1,75 @@
+h1 {
+    margin-top: auto;
+    width: auto;
+    height: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background: linear-gradient(#F6D365, #fda085);
+    padding: 25px 15px;
+    height: 70px;
+    color: white;
+
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+
+head {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.divReceita {
+    margin: 3px;
+    background-color: lightyellow;
+    padding: 10px 380px;
+}
+
+h2 {
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* .ingredientes {
+    font-weight: bold;
+} */
+
+.tittle{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+iframe{
+    display: block;
+    align-items: center;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    
+}
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 117);
+    height: 30px;
+    padding-top: 11px;
+}

@@ -1,0 +1,31 @@
+#externo {
+    /* background-color: darkgray; */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(purple, blue, purple);
+    /* background-attachment: fixed; */
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+
+
+#interno {
+    background-image: url(494872adcf51b55e610b7d3d13e50fdc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    margin: auto;
+    
+}
+.elemento-pai{
+    text-align: center;
+}
+
+.filho-sem-pai{
+    display: block;
+    text-align: center;
+}
