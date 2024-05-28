@@ -4,7 +4,12 @@ h1 {
     height: 30px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+
+.tittle {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
 }
 
 header {
@@ -12,36 +17,29 @@ header {
     padding: 25px 15px;
     height: 70px;
     color: white;
-
-}
-
-span {
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
+    position: sticky;
+    top: 0;
+    
 }
 
-head {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-top: 20px;
+body {
+    margin: 0px;
 }
 
-.divReceita {
+main {
     margin: 3px;
     background-color: lightyellow;
     padding: 10px 380px;
 }
 
-h2 {
-    /* text-align: center; */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-}
-
 img {
     width: 500px;
     height: 350px;
+    border-radius: 5px;
+    border: solid 2px orange;
+    margin-bottom: 20px;
 }
 
 p {
@@ -49,27 +47,35 @@ p {
     font-weight: bold;
 }
 
-/* .ingredientes {
-    font-weight: bold;
-} */
-
-.tittle{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+.text-video {
+    text-align: center;
     font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
-iframe{
+
+iframe {
     display: block;
     align-items: center;
     margin: auto;
     width: 500px;
     height: 300px;
-    
+    border-radius: 8px;
+    border: solid 2px orange;
 }
-footer{
+
+footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(240, 240, 117);
+    background-color: rgb(196, 196, 196);
     height: 30px;
     padding-top: 11px;
+}
+
+.navs {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
 }

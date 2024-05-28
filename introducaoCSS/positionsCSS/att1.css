@@ -1,0 +1,29 @@
+h1 {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+header {
+    margin: 0px;
+    background-color: rgb(207, 255, 255);
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    position: static;
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    background-color: bisque;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+img{
+}
