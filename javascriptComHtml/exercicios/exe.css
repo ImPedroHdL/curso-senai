@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url(https://mobilidade.estadao.com.br/wp-content/uploads/2023/04/Sabrina-Ferreira_Transito-39.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.all {
+    position: relative;
+    background-color: rgb(201, 201, 201, 0.8);
+    padding: 10px;
+    width: max-content;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 3px solid black;
+}
+
+#submit_button {
+    border-radius: 5px;
+    border: 2px solid lightyellow;
+    position: absolute;
+    bottom: 70px;
+    width: 200px;
+    height: 50px;
+    background-color: lightyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#submit_button:hover {
+    background-color: yellow;
+}
+
+#user_name {
+    width: 200px;
+    height: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: lightyellow;
+    transition: 0.3s;
+}
+
+#user_name:hover {
+    background-color: rgb(255, 255, 179);
+
+}
+
+#user_age {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: lightyellow;
+    transition: 0.3s;
+}
+
+#user_age:hover {
+    background-color: rgb(255, 255, 179);
+}
+
+p, h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+}
+footer{
+    position: absolute;
+    bottom: 3px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <script src="exe1.js" defer></script>
+    <link rel="stylesheet" href="exe1.css">
+</head>
+
+<body>
+    <form onsubmit="avaliar(event)">
+
+        <h1 id="tituloIMC">Calcular IMC</h1>
+        <label for="">
+            <input type="text" placeholder="Digite seu nome" id="user_name" name="nomeUsuario">
+        </label> <br>
+
+        <label for="">
+            <input type="number" placeholder="Digite o seu peso" id="user_weight" name="peso_usuario">
+        </label><br>
+
+        <label for="">
+            <input type="number" placeholder="Digite a sua altura" id="user_height" name="altura_usuario">
+        </label> <br>
+
+        <label for="">
+            <input type="text" placeholder="Digite a sua profissão" id="user_profission" name="profissao_usuario">
+        </label> <br>
+
+        <label for="">
+            <input type="url" placeholder="Digite aqui o url de alguma foto" id="user_pic" name="user_pic">
+        </label> <br>
+
+        <button type="submit">CLIQUE AQUI PARA AVALIAR O SEU IMC</button>
+
+    </form>
+
+    <div id="imcUsuario">
+        <p id="imcText"></p>
+        <img src="" alt="">
+
+    </div>
+</body>
+
+</html>

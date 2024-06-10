@@ -1,0 +1,58 @@
+body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightgray;
+}
+
+#exe1 {
+    background-color: rgb(118, 207, 118);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+
+    #user_name {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+        border: 2px solid green;
+        padding-left: 5px;
+    }
+
+}
+
+#exe2 {
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#imgExe2 {
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+#exe3 {
+    background-color: rgb(255, 129, 129);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 300px;
+    width: 300px;
+}
+
+.botaoContador {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 223, 223);
+    border: 2px solid red;
+    border-radius: 10px;
+}

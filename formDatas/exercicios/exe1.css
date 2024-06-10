@@ -1,0 +1,37 @@
+body{
+    position: relative;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px ;
+}
+
+#imcUsuario{
+    background-color: lightgray;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#tituloIMC{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+}
