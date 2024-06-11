@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino html com js</title>
+    <link rel="stylesheet" href="treino1.css">
+    <script src="treino1.js" defer></script>
+
+</head>
+
+<body>
+    <div id="all">
+
+        <h1 class="tittle">Bem vindo</h1>
+        <label for="">
+            <p id="txtNome">Qual o seu nome?</p>
+            <input type="text" id="user_name" name="nome_usuario">
+        </label>
+        <h2 class="tittle">O que você deseja fazer?</h2>
+        <div id="buttons">
+            <button onclick="somar()">SOMAR</button>
+            <button onclick="subtrair()">SUBTRAIR</button>
+            <button onclick="multiplicar()">MULTIPLICAR</button>
+            <button onclick="dividir()">DIVIDIR</button>
+        </div>
+
+        <form onsubmit="">
+            <input type="number" id="num1" name="primeiroValor">
+            <input type="number" id="num2" name="segundoValor">
+            <br>
+            <button type="submit">ENVIAR VALORES</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

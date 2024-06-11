@@ -1,0 +1,33 @@
+#all {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+
+    width: 600px;
+    height: 600px;
+
+    background-color: beige;
+}
+
+input {
+    width: 300px;
+}
+
+#buttons {
+    display: flex;
+    background-color: aliceblue;
+    width: 500px;
+    height: 30px;
+
+
+    width: 100px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+form {
+    display: none;
+}
