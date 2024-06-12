@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios sobre css com javascript</title>
+    <script src="exe1.js" defer></script>
+    <link rel="stylesheet" href="exe1.css">
+
+</head>
+
+<body>
+    <div id="all">
+
+        <div id="exe1">
+            <button onclick="corParagrafo()">MUDAR COR DO PARAGRAFO</button>
+            <p id="paragrafoMudaCor">Esse paragrafo vai ter a cor mudada!</p>
+            <p id="subParagrafo" onclick="corParagrafo()">com fundo rosa (la ele)</p>
+        </div>
+
+        <div id="divMudaCor" onmouseover="corVerde()" onclick="corAmarela()" onmouseout="corAzul()">
+            <p id="mudaCor">PASSE O MOUSE SOBRE O AZUL PARA MUDAR A COR</p>
+            <p id="subParagrafoCor">CLIQUE PARA OUTRA COR</p>
+        </div>
+
+        <div id="exe3">
+            <p id="tittleExe3">DIGITE O NOME DE ALGUMA COR EM INGLÊS</p>
+            <label for="">
+                <input type="text" id="inputCor" oninput="mudarCor()" placeholder="Digite aqui">
+            </label>
+        </div>
+    </div>
+</body>
+
+</html>
