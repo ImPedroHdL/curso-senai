@@ -16,6 +16,7 @@ input {
 
 #buttons {
     display: flex;
+
     background-color: aliceblue;
     width: 500px;
     height: 30px;
@@ -28,6 +29,21 @@ button {
     margin-left: 10px;
 }
 
-form {
+.oculto{
+    display: none;
+}
+.soma {
+}
+
+#subtrair {
+    display: none;
+}
+
+#multiplicar {
+    display: none;
+}
+
+
+#dividir {
     display: none;
 }

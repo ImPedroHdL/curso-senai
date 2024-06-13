@@ -20,18 +20,48 @@
         </label>
         <h2 class="tittle">O que você deseja fazer?</h2>
         <div id="buttons">
+
             <button onclick="somar()">SOMAR</button>
+            <div class="soma oculto"  >
+                <form onsubmit="">
+                    <input type="number" id="num1" name="primeiroValor">
+                    <input type="number" id="num2" name="segundoValor">
+                    <br>
+                    <button type="submit">ENVIAR VALORES</button>
+                </form>
+            </div>
+
             <button onclick="subtrair()">SUBTRAIR</button>
+            <div id="subtrair">
+                <form onsubmit="">
+                    <input type="number" id="num1" name="primeiroValor">
+                    <input type="number" id="num2" name="segundoValor">
+                    <br>
+                    <button type="submit">ENVIAR VALORES</button>
+                </form>
+            </div>
+
             <button onclick="multiplicar()">MULTIPLICAR</button>
+            <div id="multiplicar">
+                <form onsubmit="">
+                    <input type="number" id="num1" name="primeiroValor">
+                    <input type="number" id="num2" name="segundoValor">
+                    <br>
+                    <button type="submit">ENVIAR VALORES</button>
+                </form>
+            </div>
+
             <button onclick="dividir()">DIVIDIR</button>
+            <div id="dividir">
+                <form onsubmit="">
+                    <input type="number" id="num1" name="primeiroValor">
+                    <input type="number" id="num2" name="segundoValor">
+                    <br>
+                    <button type="submit">ENVIAR VALORES</button>
+                </form>
+            </div>
         </div>
 
-        <form onsubmit="">
-            <input type="number" id="num1" name="primeiroValor">
-            <input type="number" id="num2" name="segundoValor">
-            <br>
-            <button type="submit">ENVIAR VALORES</button>
-        </form>
 
     </div>
 </body>

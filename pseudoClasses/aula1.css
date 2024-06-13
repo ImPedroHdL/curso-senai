@@ -1,0 +1,40 @@
+.principal {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+
+    border-radius: 5px;
+}
+
+/* Quando o mouse está sobre o elemento */
+.principal:hover {
+    background-color: bisque;
+}
+
+/* quando o elemento é clicado*/
+.principal:active {
+    background-color: lightblue;
+}
+
+.texto {
+    color: red;
+}
+
+/* muda a cor quando o elemento está em foco*/
+.texto:focus {
+    color: lightpink;
+}
+
+.botao-enviar {
+    color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* muda quando o link já foi visitado*/
+a:visited {
+    text-decoration: overline;
+    color: yellowgreen;
+}
