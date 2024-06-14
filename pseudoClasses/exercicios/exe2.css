@@ -1,5 +1,4 @@
-.all {
-
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +8,7 @@
 
     width: 100%;
     height: 1000px;
-    padding: 20px 5px;
-
+    padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -23,8 +21,10 @@ header {
     background-color: lightcyan;
 
     width: 100%;
-    height: 250px;
+    height: 350px;
+    margin: 0px;
 }
+
 
 #logo-pagina {
     display: flex;
@@ -38,8 +38,8 @@ header {
 
     background-color: lightblue;
 
-    width: 150px;
-    height: 150px;
+    width: 320px;
+    height: 270px;
     border-radius: 5px;
     margin: 0px;
 }
@@ -69,17 +69,125 @@ main {
 }
 
 #item1 {
+    display: flex;
+    flex-direction: column;
+
     position: absolute;
     top: 10px;
     left: 10px;
-    
 
-    background-color: lightcyan;
 
-    width: 300px;
-    height: 300px;
+    background-color: white;
+
+    width: 350px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#img-item-1{
-    
+#img-item1 {
+    width: 100%;
+    height: 50%px;
+
+}
+
+.titulo-item1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.comprar {
+    background-color: lightgray;
+
+    width: 100%;
+    height: 50px;
+
+    border: 0px;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    transition: 0.2s;
+}
+
+.comprar:hover {
+    background-color: lightblue;
+}
+
+.comprar:active {
+    background-color: aqua;
+}
+
+.form-compra {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    width: fit-content;
+
+    background-color: aliceblue;
+
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form-input {
+    width: 90%;
+    height: 30px;
+
+    background-color: lightcyan;
+    border: 2px lightblue solid;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+.form-tittle {
+    font-size: 25px;
+    margin: 10px;
+}
+
+#form-submit-button {
+    background-color: lightgray;
+
+    width: 200px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 0px;
+
+    margin-top: 20px;
+
+}
+
+.tittle {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-check {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.oculto {
+    display: none;
 }

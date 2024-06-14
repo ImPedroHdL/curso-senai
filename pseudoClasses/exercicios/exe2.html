@@ -6,33 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar pagina de compra de alguma coisa</title>
     <link rel="stylesheet" href="exe2.css">
+    <script src="exe2.js" defer></script>
 </head>
 
 <body>
-    <div class="all">
-        <header>
-            <h1 id="titulo">DIGITAL STORE</h1>
-            <h2 id="titulo2">A sua loja de eletrônicos</h2>
-            <a href="http://127.0.0.1:5500/pseudoClasses/exercicios/exe2.html">
-                <img id="logo-pagina"
-                    src="https://img.freepik.com/vetores-premium/logo-da-loja-digital-ou-logo-de-produtos-eletronicos-ou-logo-de-e-commerce_372882-55.jpg"
-                    alt="logo-loja">
-            </a>
-            <button id="categorias">CATEGORIAS</button>
-            <input type="text" id="search-bar" placeholder="O que você deseja?">
-        </header>
+    <header>
+        <h1 id="titulo">DIGITAL STORE</h1>
+        <h2 id="titulo2">A sua loja de eletrônicos</h2>
+        <a href="http://127.0.0.1:5500/pseudoClasses/exercicios/exe2.html">
+            <img id="logo-pagina"
+                src="https://img.freepik.com/vetores-premium/logo-da-loja-digital-ou-logo-de-produtos-eletronicos-ou-logo-de-e-commerce_372882-55.jpg"
+                alt="logo-loja">
+        </a>
+        <button id="categorias">CATEGORIAS</button>
+        <input type="text" id="search-bar" placeholder="O que você deseja?">
+    </header>
 
-        <main>
-            <div id="itens">
-
-                <div id="item1">
-                    <img id="img-item1" src="https://i.pngimg.me/thumb/f/720/1fbe8131b5.jpg" alt="imagem do item 1">
-                    <p>iPhone</p>
-                </div>
+    <main>
+        <div id="itens">
+            <div id="item1">
+                <img id="img-item1" src="https://imgs.casasbahia.com.br/55064585/1g.jpg" alt="imagem do item 1">
+                <p class="titulo-item1">iPhone 15 Pro Max</p>
+                <p class="titulo-item1">R$6.999,90</p>
+                <ul id="item1-desc">
+                    <li>Tela: 6.1" Super Retina XDR</li>
+                    <li>Armazenamento: 512gb</li>
+                    <li>Câmera: 1x 48px e 2x 12px</li>
+                </ul>
+                <button class="comprar" onclick="comprarItem1()">COMPRAR</button>
             </div>
-        </main>
 
-    </div>
+            <div>
+                <form onsubmit="pagamento(event)" type="submit" class="form-compra oculto">
+                    <div>
+                        <p class="tittle">SEUS DADOS</p>
+                        <p class="form-tittle">Qual o seu nome?</p>
+                        <input class="form-input" type="text" id="user-name" placeholder="Digite aqui"
+                            name="nome_usuario">
+
+                        <p class="form-tittle">Qual o seu CPF?</p>
+                        <input class="form-input" type="text" id="user-document" placeholder="Digite aqui"
+                            name="cpf-usuario">
+
+                        <p class="form-tittle">Qual o seu endereço?</p>
+                        <input type="text" class="form-input" id="user-adress" placeholder="Digite aqui"
+                            name="endereco">
+
+                        <p class="form-tittle">Qual seu e-mail?</p>
+                        <input type="email" class="form-input" id="user-email" placeholder="Digite aqui" name="email">
+
+                        <p class="form-tittle">Qual seu número de telefone?</p>
+                        <input type="number" class="form-input" id="user-phone" placeholder="Digite aqui"
+                            name="cellphone">
+
+
+                        <div class="pagamento">
+
+                            <p class="tittle">FORMA DE PAGAMENTO</p>
+
+                            <label for="">
+                                <input name="check" value="pix" id="pix" type="radio" "><span
+                                    class="form-check">PIX</span><br>
+                            </label>
+
+                            <label for="">
+                                <input name="check" value="cartaoCredito" id="cartao-credito" type="radio"
+                                    onclick="cartaoCredito()"><span class="form-check">Cartão de Crédito</span><br>
+                            </label>
+
+                            <label for="">
+                                <input name="check" value="boleto" id="boleto" type="radio" "><span
+                                    class="form-check">Boleto</span><br>
+                            </label>
+                        </div>
+
+                    </div>
+                    <button id="form-submit-button" type="submit">ENVIAR</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
