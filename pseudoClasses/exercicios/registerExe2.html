@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+    <script src="registerExe2.js" defer></script>
+    <link rel="stylesheet" href="registerExe2.css">
+</head>
+
+<body>
+    <header>
+        <h1>INFORME SEUS DADOS PARA SE REGISTRAR</h1>
+        <form onsubmit="registerPage(event)" id="dados-de-registro">
+
+            <label id="user-name">
+                <p>PRIMEIRO NOME:</p>
+                <input type="text" id="user_name-register" name="nome-registro-usuario">
+            </label>
+
+            <label id="user-lastname">
+                <p>SOBRENOME:</p>
+                <input type="text" id="usar-lastname-register" name="sobrenome-registro-usuario">
+            </label>
+
+            <label id="user-email">
+                <p>E-MAIL:</p>
+                <input type="email" id="user-email-register" name="email-registro-usuario">
+            </label>
+
+            <label id="user-nickname">
+                <p>NOME DE USUARIO</p>
+                <input type="text" name="apelido-usuario" id="user-nick">
+            </label>
+
+            <label id="user-password">
+                <p>SENHA</p>
+                <input type="password" name="senha-usuario" id="user-pass">
+            </label>
+
+            <label id="check-password">
+                <p>REPITA SUA SENHA</p>
+                <input type="password" name="verifica-senha" id="check-pass">
+            </label>
+            <button type="submit">REGISTRE-SE</button>
+        </form>
+    </header>
+</body>
+
+</html>

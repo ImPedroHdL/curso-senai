@@ -25,3 +25,9 @@ function pagamento(evento) {
 
     console.log(check)
 }
+
+function registrar(){
+    // abre janela para registrar criação de contas
+    window.open('http://127.0.0.1:5500/pseudoClasses/exercicios/registerExe2.html', "Pagina de login", )
+
+}

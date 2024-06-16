@@ -24,6 +24,10 @@ header {
     height: 350px;
     margin: 0px;
 }
+form{
+    height: 400px;
+    width: 400px;
+}
 
 
 #logo-pagina {
@@ -38,8 +42,8 @@ header {
 
     background-color: lightblue;
 
-    width: 320px;
-    height: 270px;
+    width: 90%px;
+    height: 90%;
     border-radius: 5px;
     margin: 0px;
 }
@@ -79,7 +83,7 @@ main {
 
     background-color: white;
 
-    width: 350px;
+    width: 250px;
     height: fit-content;
     padding: 20px;
     border-radius: 10px;
@@ -87,6 +91,10 @@ main {
 
     font-size: 20px;
     font-weight: bold;
+}
+
+#item1-desc{
+    font-size: 10px;
 }
 
 #img-item1 {
@@ -97,7 +105,7 @@ main {
 
 .titulo-item1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 li {
@@ -191,3 +199,46 @@ li {
 .oculto {
     display: none;
 }
+
+#login{
+    background-color: white;
+
+    position: absolute;
+    right: 17px;
+    top: 10px;
+
+    border: lightblue 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginText{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+
+    width: 90%;
+    height: 50%;
+
+    border-radius: 10px;
+    border: 0px;
+
+    margin-top: 20px;
+    
+}
+.login-buttons:hover {
+    background-color: lightblue;
+}
+
+.login-buttons:active {
+    background-color: aqua;
+}
+
+

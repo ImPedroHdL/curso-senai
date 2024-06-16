@@ -15,11 +15,16 @@
         <h2 id="titulo2">A sua loja de eletrônicos</h2>
         <a href="http://127.0.0.1:5500/pseudoClasses/exercicios/exe2.html">
             <img id="logo-pagina"
-                src="https://img.freepik.com/vetores-premium/logo-da-loja-digital-ou-logo-de-produtos-eletronicos-ou-logo-de-e-commerce_372882-55.jpg"
+                src="https://img.freepik.com/vetores-premium/logotipo-do-monitor-loja-digital-logotipo-de-produtos-eletronicos-ou-logotipo-da-loja-logotipo-da-loja_372882-57.jpg"
                 alt="logo-loja">
         </a>
-        <button id="categorias">CATEGORIAS</button>
-        <input type="text" id="search-bar" placeholder="O que você deseja?">
+
+        <div id="login">
+            <p class="loginText">Já possui conta?</p>
+            <button class="login-buttons" onclick="entrar()">ENTRAR</button>
+            <button class="login-buttons" onclick="registrar()">REGISTRE-SE</button>
+            </form>
+        </div>
     </header>
 
     <main>
@@ -45,7 +50,7 @@
                             name="nome_usuario">
 
                         <p class="form-tittle">Qual o seu CPF?</p>
-                        <input class="form-input" type="text" id="user-document" placeholder="Digite aqui"
+                        <input class="form-input" type="number" id="user-document" placeholder="Digite aqui"
                             name="cpf-usuario">
 
                         <p class="form-tittle">Qual o seu endereço?</p>
@@ -66,7 +71,7 @@
 
                             <label for="">
                                 <input name="check" value="pix" id="pix" type="radio" "><span
-                                    class="form-check">PIX</span><br>
+                                    class=" form-check">PIX</span><br>
                             </label>
 
                             <label for="">
@@ -76,7 +81,7 @@
 
                             <label for="">
                                 <input name="check" value="boleto" id="boleto" type="radio" "><span
-                                    class="form-check">Boleto</span><br>
+                                    class=" form-check">Boleto</span><br>
                             </label>
                         </div>
 
