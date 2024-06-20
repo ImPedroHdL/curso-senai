@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightgreen;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    border-radius: 5px;
+}

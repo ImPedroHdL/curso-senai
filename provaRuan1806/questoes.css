@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #7d007d;
+    margin-bottom: 10px;
+}
+
+button{
+    border: 2px solid gold;
+    margin-top: 3px;
+}
+
+img{
+    border: 5px solid gold;
+    border-radius: 5px;
+}
