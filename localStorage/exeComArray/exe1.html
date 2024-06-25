@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A lista vip</title>
+    <script src="exe1.js" defer></script>
+    <link rel="stylesheet" href="exe1.css">
+</head>
+
+<body>
+    <div class="back">
+
+        <h1>A LISTA VIP</h1>
+        <form onsubmit="nome(event)">
+            <label for="user-name">
+                <p>Digite seu nome:</p>
+                <input type="text" name="nome-usuario" id="user-name">
+            </label>
+            <button type="submit">ENVIAR</button>
+        </form>
+
+        <h2>Aqui está a lista de pessoas VIPs:</h2>
+        <ol id="lista">
+            <p id="vips"></p>
+        </ol>
+
+    </div>
+</body>
+
+</html>
