@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#principal{
+    width: fit-content;
+    height: fit-content;
+
+    background-color: lightgray;
+    padding: 10px;
+}
+
+p{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+input{
+    margin: 5px 0px ;
+}
+
+button{
+    margin-top: 5px;
+}

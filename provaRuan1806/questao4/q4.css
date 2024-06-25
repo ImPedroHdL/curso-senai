@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal {
+    width: 500px;
+    height: fit-content;
+
+    background-color: lightcoral;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#secundaria{
+    width: 500px;
+    height: fit-content;
+
+    background-color: lightpink;
+
+    padding: 10px;
+    border-radius: 5px;
+}

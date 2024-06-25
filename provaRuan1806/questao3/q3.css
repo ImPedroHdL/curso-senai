@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.oculto {
+    display: none;
+}
+
+#principal {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+    
+    background-color: lightgray;
+
+    text-align: center  ;
+
+
+}
+
+img {
+    width: 300px;
+    height: inherit;
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+    <script src="q5.js" defer></script>
+    <link rel="stylesheet" href="q5.css">
+</head>
+
+<body>
+    <div id="principal">
+        <form onsubmit="(event)">
+            <label for="id-nome">
+                <p>Seu nome?</p>
+                <input type="text" name="nome" id="id-nome">
+            </label>
+
+            <label for="user-email">
+                <p>Seu e-mail?</p>
+                <input type="email" name="email" id="user-email">
+            </label>
+
+            <label for="id-cidade">
+                <p>Sua cidade?</p>
+                <input type="text" name="cidade" id="id-cidade">
+            </label>
+
+            <div id="checkBoxes">
+                <p>Opções de participação:</p>
+                <label for="part-presencial">
+                    <input type="radio" id="part-presencial" name="checkBox"> <span>PARTICIPAÇÃO PRESENCIAL</span>
+                </label>
+                <br>
+                <label for="part-online">
+                    <input type="radio" id="part-online" name="checkBox"> <span>PARTICIPAÇÃO ONLINE</span>
+                </label>
+            </div>
+
+        <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+</body>
+
+</html>
