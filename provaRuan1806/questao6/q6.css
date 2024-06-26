@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -9,4 +10,17 @@ body{
 
     padding: 10px;
     border-radius: 5px;
+=======
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    background-color: lightgray;
+    width: fit-content;
+    height: fit-content;
+
+    padding: 10px;
+    border-radius: 5px;
+>>>>>>> 219137e0dad3d1857b4abc10d6b893196b736496
 }
