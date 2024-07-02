@@ -1,5 +1,6 @@
 body {
-    background-image: url('https://besthqwallpapers.com/Uploads/21-8-2020/140195/abstract-nightscapes-4k-abstract-cityscapes-metropolis-artwork.jpg');
+    background-image: url('https://wallpapers.com/images/hd/4k-horror-fw5t99akptdu26yp.jpg');
+    /* https://besthqwallpapers.com/Uploads/21-8-2020/140195/abstract-nightscapes-4k-abstract-cityscapes-metropolis-artwork.jpg */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,8 +29,8 @@ header {
 
     padding: 10px;
     backdrop-filter: blur(5px);
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 0px 30px rgba(212, 212, 212, 0.863);
+    border: 2px solid rgba(212, 212, 212, 0.863);
     color: white;
 }
 
@@ -44,9 +45,9 @@ header {
     height: fit-content;
 
 
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(212, 212, 212, 0.863);
+    border: 2px solid rgba(212, 212, 212, 0.863);
     color: white;
 }
 
@@ -61,6 +62,12 @@ header {
     width: 320px;
     height: 50px;
 
+    transition: 0.2s;
+}
+
+.nav-buttons:hover {
+    color: rgb(212, 212, 212);
+
 }
 
 #submit-button {
@@ -74,16 +81,15 @@ header {
     text-align: center;
 
     cursor: pointer;
-    transition: ease-in 0.3s;
+    transition: ease-in-out 0.3s;
 
 }
 
 #submit-button:hover {
-    background-color: white;
-    color: black;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
+    background-color: green;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
 }
 
 #inputs-cadastro {
@@ -96,9 +102,9 @@ header {
     padding: 10px;
     border-radius: 3px;
 
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(212, 212, 212, 0.863);
+    border: 2px solid rgba(212, 212, 212, 0.863);
     color: white;
 }
 
@@ -142,21 +148,46 @@ label {
 
 .filmes-css {
     width: fit-content;
+    max-width: 400px;
 
     margin: 25px;
     padding: 15px;
+    text-align: center;
 
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(212, 212, 212, 0.863);
+    border: 2px solid rgba(212, 212, 212, 0.863);
     color: white;
 }
 
 img {
     width: 300px;
     height: auto;
+
 }
 
 .cadastro {
     padding: 0px;
+}
+
+#remover {
+    font-size: 10px;
+    width: 100px;
+}
+
+#botoes-div-filme{
+    border-radius: 3px;
+    background: none;
+    border: solid 2px rgba(212, 212, 212, 0.863);
+    color: white;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+
+    transition: ease-in-out.2s;
+}
+
+#botoes-div-filme:hover{
+    background-color: red;
+    opacity: 10px;
 }

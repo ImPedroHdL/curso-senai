@@ -13,66 +13,56 @@
     <header>
         <h1>CINECODE</h1>
         <nav id="nav-bar">
-            <div>
-                <button class="nav-buttons" onclick="">INICIO</button>
-            </div>
+            <button class="nav-buttons" onclick="">INICIO</button>
+            <button class="nav-buttons" onclick="">PROTAGONISTA</button>
+            <button class="nav-buttons" onclick="">VILÃO</button>
+            <button class="nav-buttons" onclick="mostrarCadastro()">CADASTRAR NOVO VILÃO</button>
 
-            <div>
-                <button class="nav-buttons" onclick="">PROTAGONISTA</button>
-            </div>
-
-            <div>
-                <button class="nav-buttons" onclick="">VILÃO</button>
-            </div>
-
-            <div>
-                <button class="nav-buttons" onclick="mostrarCadastro()">CADASTRAR NOVO VILÃO</button>
-            </div>
         </nav>
     </header>
 
-    <main>
-        <div class="cadastro oculto">
-            <form id="inputs-cadastro" onsubmit="cadastrarVilao(event)">
-                <h2>CADASTRAR VILÃO</h2>
+    <div class="cadastro oculto">
+        <form id="inputs-cadastro" onsubmit="cadastrarVilao(event)">
+            <h2>CADASTRAR VILÃO</h2>
 
-                <label>
-                    <p>LINK DE ALGUMA FOTO DO ANTAGONISTA</p>
-                    <input type="url" name="foto" id="url-foto">
-                </label>
+            <label>
+                <p>LINK DE ALGUMA FOTO DO ANTAGONISTA</p>
+                <input type="url" name="foto" id="url-foto">
+            </label>
 
-                <label>
-                    <p>NOME DO PERSONAGEM</p>
-                    <input type="text" id="input-nome" name="nome-personagem">
-                </label>
+            <label>
+                <p>NOME DO PERSONAGEM</p>
+                <input type="text" id="input-nome" name="nome-personagem">
+            </label>
 
-                <label>
-                    <p>NOME DO FILME</p>
-                    <input type="text" id="input-nome-filme" name="nome-filme">
-                </label>
+            <label>
+                <p>NOME DO FILME</p>
+                <input type="text" id="input-nome-filme" name="nome-filme">
+            </label>
 
-                <label>
-                    <p>NOME DO ATOR/ATRIZ</p>
-                    <input type="text" id="input-nome-ator" name="nome-ator">
-                </label>
+            <label>
+                <p>NOME DO ATOR/ATRIZ</p>
+                <input type="text" id="input-nome-ator" name="nome-ator">
+            </label>
 
-                <label>
-                    <p>DESCRIÇÃO</p>
-                    <input type="text" id="input-descricao" name="descricao">
-                </label>
+            <label>
+                <p>DESCRIÇÃO</p>
+                <input type="text" id="input-descricao" name="descricao">
+            </label>
 
-                <label>
-                    <p>MOTIVO DO ANTAGONISMO</p>
-                    <input type="text" id="input-motivo-antagonismo" name="motivo-antagonismo">
-                </label>
+            <label>
+                <p>MOTIVO DO ANTAGONISMO</p>
+                <input type="text" id="input-motivo-antagonismo" name="motivo-antagonismo">
+            </label>
 
-                <button type="submit" id="submit-button" class="nav-buttons">ENVIAR</button>
-            </form>
-        </div>
+            <button type="submit" id="submit-button" class="nav-buttons">ENVIAR</button>
+        </form>
+        <main>
+    </div>
 
-        <div id="filmes">
-            
-        </div>
+    <div id="filmes">
+
+    </div>
     </main>
 </body>
 
