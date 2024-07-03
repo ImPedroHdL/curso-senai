@@ -32,9 +32,9 @@ window.onload = function () {
             let div = document.createElement('div')
             div.className = 'filmes-css'
 
-            // Criar a imagem
+            // recarregar imagem
             let imagem = document.createElement('img')
-            imagem.src = urlsFotosCadastradas[i] // Usar a URL da foto correta
+            imagem.src = urlsFotosCadastradas[i]
             imagem.alt = 'Foto do vilão'
 
             // Adicionar imagem à div
@@ -98,8 +98,8 @@ window.onload = function () {
 }
 
 function cadastrarVilao(evento) {
-    evento?.preventDefault(); // Prevenir o comportamento padrão do formulário se o evento existir
-
+    evento?.preventDefault()
+    
     const formulario = document.querySelector('form')
     const dadosFormulario = new FormData(formulario)
 
@@ -137,10 +137,10 @@ function cadastrarVilao(evento) {
 
         // Criar a imagem
         let imagem = document.createElement('img')
-        imagem.src = urlsFotosCadastradas[i] // Usar a URL da foto correta
+        imagem.src = urlsFotosCadastradas[i]
         imagem.alt = 'Foto do vilão'
 
-        // Adicionar imagem à div
+        // Adicionar imagem a div
         div.appendChild(imagem)
 
         // Criar parágrafos com as informações do vilão
@@ -159,14 +159,14 @@ function cadastrarVilao(evento) {
         let paragrafoMotivo = document.createElement('p')
         paragrafoMotivo.textContent = `Motivo do antagonismo: ${motivosCadastrados[i]}`
 
-        // Criar botão para remover o vilão
+        // botão para remover o vilão
         let botaoRemover = document.createElement('button')
         botaoRemover.id = 'botoes-div-filme'
         botaoRemover.textContent = 'REMOVER'
 
-        // Usar uma função anônima para capturar corretamente o valor de 'i' neste contexto
+        // função anônima para capturar corretamente o valor de 'i' neste contexto
         botaoRemover.addEventListener('click', function () {
-            // Remover o vilão da lista
+            // remove o vilão da lista
             urlsFotosCadastradas.splice(i, 1)
             personagensCadastrados.splice(i, 1)
             filmesCadastrados.splice(i, 1)
@@ -174,7 +174,7 @@ function cadastrarVilao(evento) {
             descricoesCadastradas.splice(i, 1)
             motivosCadastrados.splice(i, 1)
 
-            // Atualizar local storage após remoção
+            // atualiza local storage após remoção
             localStorage.setItem('fotos', JSON.stringify(urlsFotosCadastradas))
             localStorage.setItem('Personagens', JSON.stringify(personagensCadastrados))
             localStorage.setItem('filmes', JSON.stringify(filmesCadastrados))
@@ -182,11 +182,11 @@ function cadastrarVilao(evento) {
             localStorage.setItem('descricoes', JSON.stringify(descricoesCadastradas))
             localStorage.setItem('motivos', JSON.stringify(motivosCadastrados))
 
-            // Remover a div correspondente da página
+            // remove a div correspondente correspondente ao filme
             div.remove()
         })
 
-        // Adicionar os parágrafos e o botão à div
+        // adiciona os parágrafos e o botão à div
         div.appendChild(paragrafoNomePersonagem)
         div.appendChild(paragrafoNomeFilme)
         div.appendChild(paragrafoNomeAtor)
@@ -194,7 +194,7 @@ function cadastrarVilao(evento) {
         div.appendChild(paragrafoMotivo)
         div.appendChild(botaoRemover)
 
-        // Adicionar a div do filme ao elemento pai
+        // adiciona a div do filme ao elemento pai
         divFilmesPai.appendChild(div)
     }
     formulario.reset()

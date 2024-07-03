@@ -7,17 +7,22 @@
     <title>Pagina de cadastro de antagonista</title>
     <script src="vilao.js" defer></script>
     <link rel="stylesheet" href="vilao.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+
     <header>
-        <h1>CINECODE</h1>
+        <a href="">
+            <h1>CINECODE</h1>
+        </a>
         <nav id="nav-bar">
             <button class="nav-buttons" onclick="">INICIO</button>
             <button class="nav-buttons" onclick="">PROTAGONISTA</button>
-            <button class="nav-buttons" onclick="">VILÃO</button>
+            <a href="vilao.html">
+                <button class="nav-buttons" onclick="">VILÃO</button>
+            </a>
             <button class="nav-buttons" onclick="mostrarCadastro()">CADASTRAR NOVO VILÃO</button>
-
         </nav>
     </header>
 
@@ -27,43 +32,44 @@
 
             <label>
                 <p>LINK DE ALGUMA FOTO DO ANTAGONISTA</p>
-                <input type="url" name="foto" id="url-foto">
+                <input type="url" name="foto" id="url-foto" required>
             </label>
 
             <label>
                 <p>NOME DO PERSONAGEM</p>
-                <input type="text" id="input-nome" name="nome-personagem">
+                <input type="text" id="input-nome" name="nome-personagem" required>
             </label>
 
             <label>
                 <p>NOME DO FILME</p>
-                <input type="text" id="input-nome-filme" name="nome-filme">
+                <input type="text" id="input-nome-filme" name="nome-filme" required>
             </label>
 
             <label>
                 <p>NOME DO ATOR/ATRIZ</p>
-                <input type="text" id="input-nome-ator" name="nome-ator">
+                <input type="text" id="input-nome-ator" name="nome-ator" required>
             </label>
 
             <label>
                 <p>DESCRIÇÃO</p>
-                <input type="text" id="input-descricao" name="descricao">
+                <input type="text" id="input-descricao" name="descricao" required>
             </label>
 
             <label>
                 <p>MOTIVO DO ANTAGONISMO</p>
-                <input type="text" id="input-motivo-antagonismo" name="motivo-antagonismo">
+                <input type="text" id="input-motivo-antagonismo" name="motivo-antagonismo" required>
             </label>
 
             <button type="submit" id="submit-button" class="nav-buttons">ENVIAR</button>
         </form>
-        <main>
     </div>
 
-    <div id="filmes">
-
-    </div>
+    <main>
+        <div id="filmes"></div>
     </main>
+
+    <footer>PAGINA E FUNÇÕES CRIADAS POR PEDRO HENRIQUE DA LUZ</footer>
 </body>
+
 
 </html>
