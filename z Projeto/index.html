@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CineCode - Inicio</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>CineCode</h1>
+      <nav id="nav-bar">
+        <div>
+          <a href="index.html">
+          <button class="nav-buttons">Inicio</button>
+        </a>
+        </div>
+
+        <div>
+          <a href="subPaginas/pedroEliziario/Principal.html">
+          <button class="nav-buttons">Personagens Principais</button>
+        </a>
+        </div>
+
+        <div>
+          <a href="subPaginas/pedroHenrique/vilao.html">
+          <button class="nav-buttons" >Vilões</button>
+        </a>
+        </div>
+
+        <div>
+          <button class="nav-buttons" onclick="mostrarCadastro()">
+            Cadastrar novo filme
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div class="cadastro oculto">
+      <form id="inputs-cadastro" onsubmit="cadastrarFilme(event)">
+        <label>
+          <input
+            id="id_imagem"
+            type="url"
+            name="capa"
+            class="url_capa input"
+            placeholder="URL da Foto de Capa"
+            required
+          />
+        </label>
+
+        <label>
+          <input
+            id="id_titulo"
+            type="text"
+            class="input"
+            name="titulo"
+            placeholder="Titulo"
+            required
+          />
+        </label>
+
+        <label>
+          <input
+            id="id_autor"
+            type="text"
+            class="input"
+            name="autor"
+            placeholder="Autor"
+            required
+          />
+        </label>
+
+        <label>
+          <input id="id_data" type="date" class="input" name="data" required/>
+          
+        </label>
+
+        <label>
+          <input
+            id="id_descricao"
+            type="text"
+            class="input"
+            name="descricao"
+            placeholder="Descrição"
+            required
+          />
+        </label>
+
+        <label>
+          <input
+            type="text"
+            class="input"
+            name="duracao"
+            id="id_duracao"
+            placeholder="Duração"
+            required
+          />
+        </label>
+
+        <label>
+          <textarea
+            class="txtarea"
+            name="sinopse"
+            id="id_sinopse"
+            placeholder="Sinopse"
+            required
+          ></textarea>
+        </label>
+
+        <button type="submit" id="submit-button" class="nav-buttons">
+          ENVIAR
+        </button>
+      </form>
+    </div>
+    <div class="tamanho"><div></div></div>
+    <main id="baseDeFilmes" class="baseDeFilmes">
+      <div class="filme" id="filme0">
+        <img src="https://s2.glbimg.com/Zt2AbrTslKkD8v19K6A11_aU7Mg=/512x320/smart/e.glbimg.com/og/ed/f/original/2019/07/03/gecko-1236523_960_720.jpg" />
+        <h5>Título</h5>
+        <h6>Largatixa: O filme</h6>
+        <h5>Autor</h5>
+        <h6>Logar Tixar</h6>
+        <h5>Data de lançamento</h5>
+        <h6>23/06/2024</h6>
+        <h5>Descrição</h5>
+        <h6><b>A animação favorita de todos os publicos virou um filme!</b>
+          <br />Nessa incrivel aventura a Largatixonilda embarca em uma jornada para
+          recuperar o presente que seu pai lhe deixou antes de falecer, passando por
+          muitos apuros para alcançar seu objetivo.</h6>
+        <h5>Duração</h5>
+        <h6>2h 33m 23s</h6>
+        <h5>Sinopse</h5>
+        <h6>Em um mundo de répteis e magia, Largatixonilda, uma jovem lagartixa, embarca
+          em uma jornada emocionante para encontrar o presente especial que seu pai
+          lhe deu antes de falecer. Enfrentando perigos e um vilão traiçoeiro,
+          Largatixonilda descobre coragem e amizade ao longo do caminho, lutando para
+          recuperar o presente e honrar a memória de seu pai.</h6>
+        <a class="AdoBotao" href="https://www.youtube.com/watch?v=kqKDnZtOFYk">
+          <button class="botaoAssistir">Assistir</button>
+        </a>
+        <button class="botaoDeletar" onclick="funcaoDeletar(index)">
+          Deletar
+        </button>
+      </div>
+    </main>
+    <footer>
+      <h4>Site desenvolvido por &copy;Luis_Gauze.</h4>
+    </footer>
+  </body>
+</html>

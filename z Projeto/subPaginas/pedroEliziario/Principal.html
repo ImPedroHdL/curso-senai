@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de cadastro do principal</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CINECODE</h1>
+        <nav id="nav-bar">
+            <div>
+                <a href="../../index.html">
+                    <button class="nav-buttons">INICIO</button>
+                </a>
+            </div>
+
+            <div>
+                <a href="Principal.html">
+                    <button class="nav-buttons" >PROTAGONISTAS</button>
+                </a>
+            </div>
+            <div>
+                <a href="../pedroHenrique/vilao.html">
+                <button class="nav-buttons">VILÃO</button>
+            </a>
+            </div>
+
+            <div>
+                <button class="nav-buttons" onclick="mostrarCadastro()">CADASTRAR PERSONAGEM PRINCIPAL</button>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="cadastro oculto">
+        <form id="inputs-cadastro" onsubmit="cadastrarPrincipal(event)">
+            <h2>CADASTRAR PRINCIPAL</h2>
+
+            <label>
+                <p>LINK DE ALGUMA FOTO DO PRINCIPAL</p>
+                <input type="url" name="Foto-principal" class="url-foto" id="id_url_foto" required>
+            </label>
+            <label>
+                <p>NOME DO PERSONAGEM</p>
+                <input type="text" class="input" name="nome-personagem-principal" required id="id_nome_personagem_principal">
+            </label>
+
+            <label>
+                <p>NOME DO FILME</p>
+                <input type="text" class="input" name="nome-filme" id="id_nome_filme" required>
+            </label>
+
+            <label>
+                <p>NOME DO ATOR/ATRIZ</p>
+                <input type="text" class="input" name="nome-ator-principal" id="id_nome_ator_principal" required>
+            </label>
+
+            <label>
+                <p>DESCRIÇÃO</p>
+                <textarea name="descricao_personagem_principal" id="id_descricao_personagem_principal" cols="30" rows="10" placeholder="Descrição" required></textarea>
+            </label>
+
+            <label>
+                <p>HABILIDADES</p>
+                <textarea name="habilidades" id="id_Habilidades_principal" cols="30" rows="10" placeholder="Habilidades" required></textarea>
+            </label>
+
+            <button type="submit" id="submit-button" class="nav-buttons">ENVIAR</button>
+        </form>
+    </div>
+    
+    <main>
+        
+        
+
+        <!-- FILMES -->
+        <div class="principais" id="div_id_principais">
+        </div>
+    </main>
+</body>
+
+</html>

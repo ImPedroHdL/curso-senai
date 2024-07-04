@@ -1,0 +1,159 @@
+body {
+    background: linear-gradient(black, blue);
+    background-attachment: fixed;
+   
+    background-repeat: no-repeat; background-size: cover;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    width: 98%;
+    margin-bottom: 20px;
+
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    height: fit-content;
+
+
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+.nav-buttons{
+    color: white;
+    
+    cursor: pointer;
+    border: 0px;
+    background: none;
+    width: 320px;
+    height: 50px;
+
+}
+#submit-button{
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+
+    font-size: 15px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#inputs-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+
+
+input {
+    width: 80%;
+    border-radius: 3px;
+    background: none;
+
+    border: 1px solid white;
+
+    transition: ease-in 0.3s;
+}
+
+input:focus{
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.oculto{
+    display: none;
+}
+
+#id_descricao_personagemprincipal {
+    resize: none;
+}
+
+#idHabilidades {
+    resize: none;
+}
+
+/* PERSONAGENS PRINCIPAIS (CATALAGO) */ 
+.principais {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.principais img {
+    width: 100px;
+    align-self: center;
+    border-radius: 20px;
+    border: 5px solid rgb(33, 11, 231);
+    
+
+}
+.principais h5 {
+    margin: 0px 0px 10px 0px;
+    
+}
+
+.principais h6 {
+    margin: 0px 0px 10px 0px;
+}
+
+.filme_principal {
+    margin: 0px 50px 0px 50px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 20px;
+}
+
+.principal {
+    margin: 10px 0px 0px 10px;}
+
+.principal button {
+    border-radius: 20px;
+    width: 100px;
+    color: red;
+}
